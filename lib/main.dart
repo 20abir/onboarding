@@ -71,6 +71,14 @@ class _SplashState extends State<Splash> {
       skip: Text("Skip"),
       showNextButton: true,
       next: Text("Next"),
+      dotsDecorator: DotsDecorator(
+        size: Size(10.0, 10.0),
+        color: Colors.redAccent,
+        activeSize: Size(22.0, 10.0),
+        activeShape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20),
+        ),
+      ),
     );
   }
 }
